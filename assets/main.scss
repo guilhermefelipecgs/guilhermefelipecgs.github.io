@@ -1,6 +1,5 @@
 ---
 ---
-
 $text-color: #46433A;
 $anchor-text-color: #CE534D;
 $background-color: #F1EED9;
@@ -83,16 +82,17 @@ since it must be aligned with the content */
 	font-size: 1.3em;
 	text-align: center;
 	margin-bottom: 2em;
+	margin-top: 0.8rem;
 }
 
 /******/
 hr {
 	border: 0;
 	height: 1px;
-	background-image: -webkit-linear-gradient(left, rgba(0,0,0,0), $text-color, rgba(0,0,0,0));
-	background-image: -moz-linear-gradient(left, rgba(0,0,0,0), $text-color, rgba(0,0,0,0));
-	background-image: -ms-linear-gradient(left, rgba(0,0,0,0), $text-color, rgba(0,0,0,0));
-	background-image: -o-linear-gradient(left, rgba(0,0,0,0), $text-color, rgba(0,0,0,0));
+	background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0), $text-color, rgba(0, 0, 0, 0));
+	background-image: -moz-linear-gradient(left, rgba(0, 0, 0, 0), $text-color, rgba(0, 0, 0, 0));
+	background-image: -ms-linear-gradient(left, rgba(0, 0, 0, 0), $text-color, rgba(0, 0, 0, 0));
+	background-image: -o-linear-gradient(left, rgba(0, 0, 0, 0), $text-color, rgba(0, 0, 0, 0));
 }
 
 /*** footer ***/
@@ -113,6 +113,7 @@ footer {
 /*** media queries ***/
 /* X-Small devices (phones, 480px and up) */
 @media (min-width: 480px) {
+
 	/* wrapper stays 480px wide past 480px wide and is kept centered */
 	.wrapper {
 		width: 480px;
@@ -122,6 +123,7 @@ footer {
 
 /* All other devices (768px and up) */
 @media (min-width: 768px) {
+
 	/* past 768px the layout is changed and the wrapper has a fixed width of 680px
 	to accomodate both the header column and the content column */
 	.wrapper {
@@ -132,7 +134,7 @@ footer {
 	aligned right */
 	header {
 		float: left;
-		width: 46%;
+		width: 50%;
 		text-align: right;
 	}
 
